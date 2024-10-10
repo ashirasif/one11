@@ -23,17 +23,17 @@ function Page() {
 
 
   return (
-    <div className='bg-[#0a0a0a] flex relative justify-center p-10 self-stretch'>
-      <div className='w-full flex absolute bg-black/50 h-screen top-0 left-0 z-10 flex-col justify-between gap-8'>
-        <div className='flex flex-col justify-center h-full gap-8'>
+    <div className='relative'>
+      <div className='absolute bg-black/50 top-0 left-0 z-10'>
+        <div className='flex flex-col justify-center h-full'>
           <Navbar/>
           <HeroSection/>
         </div>
       </div>
       <div className='absolute top-0 left-0 w-screen h-screen'>
-      <Canvas>
-        <Scene mousePosition={mousePosition} />
-      </Canvas>
+        <Canvas>
+          <Scene mousePosition={mousePosition} />
+        </Canvas>
       </div>
     </div>
   )
