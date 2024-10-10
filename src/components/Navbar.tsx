@@ -9,7 +9,7 @@ function Navbar() {
     'Careers'
   ]
   return (
-    <div className="flex fixed top-0 left-0 justify-between px-8 py-2 items-center  w-full">
+    <div className="flex z-40 fixed top-0 left-0 justify-between px-8 py-2 items-center  w-full">
       <img src="/One-11-logo.svg" className="w-[5.773rem]" />
         <div className="flex gap-4 items-center bg-primary rounded-md">
           {

@@ -2,8 +2,10 @@
 import { Canvas } from '@react-three/fiber'
 import { useEffect, useState } from 'react'
 import Scene from '~/components/3d/scene'
+import Cards from '~/components/Cards'
 import Clients from '~/components/Clients'
 import HeroSection from '~/components/HeroSection'
+import Markup from '~/components/Markup'
 import Navbar from '~/components/Navbar'
 
 function Page() {
@@ -28,6 +30,8 @@ function Page() {
         <div className='flex flex-col justify-center h-full'>
           <Navbar/>
           <HeroSection/>
+          <Markup/>
+          <Cards/>
         </div>
       </div>
       <div className='absolute top-0 left-0 w-screen h-screen'>
