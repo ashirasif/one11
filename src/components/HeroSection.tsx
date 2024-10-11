@@ -2,7 +2,7 @@ import { Button } from "./ui/button"
 
 function HeroSection() {
   return (
-    <div className="ml-12 flex w-3/6 flex-col items-start h-screen justify-center gap-2 text-white">
+    <div className="mx-12 flex lg:w-3/6 flex-col items-start h-screen justify-center gap-2 text-white">
       {/* <div className="animated-border-box-glow relative"></div> */}
       {/* <div className="animated-border-box after:border border-white py-4 px-4 flex items-center gap-4 relative">
         <div className='flex justify-center items-center'>

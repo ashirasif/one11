@@ -32,7 +32,7 @@ function Page() {
   return (
     <div className='relative'>
       <div className='absolute bg-black/50 top-0 left-0 z-10'>
-        <div className='flex flex-col justify-center h-full'>
+        <div className='flex flex-col justify-center h-full overflow-x-hidden w-screen'>
           <Navbar/>
           <HeroSection/>
           <Markup/>

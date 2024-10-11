@@ -34,9 +34,9 @@ export default function Testimonials() {
           {Array.from({ length: 5 }).map((_, index) => (
             <CarouselItem key={index}>
               <Card>
-                <CardContent className="flex flex-col relative aspect-square items-center border border-primary rounded-md justify-center p-6">
-                  <h3 className="text-4xl font-semibold">Lovely Experience</h3>
-                  <p className="w-2/3">
+                <CardContent className="flex flex-col relative aspect-square items-center max-lg:mx-4 border border-primary rounded-md justify-center p-6">
+                  <h3 className="text-4xl text-center lg:text-left font-semibold">Lovely Experience</h3>
+                  <p className="lg:w-2/3 text-center lg:text-left">
                     The car was in great condition and the staff was very helpful.
                   </p>
                   <p className="absolute bottom-4 text-xl italic">

@@ -4,8 +4,8 @@ import Image from 'next/image'
 export default function Footer() {
   return (
     <div className="bg-gradient-to-b py-12 border-t border-primary from-black to-primary">
-      <div className='max-w-screen-xl mx-auto grid grid-cols-3 gap-12'>
-        <div className='space-y-6'>
+      <div className='max-w-screen-xl mx-auto grid lg:grid-cols-3 grid-flow-row place-items-center gap-12'>
+        <div className='space-y-6 max-lg:px-12'>
           <Image src="/One-11-logo.svg" width={100} height={100} alt='logo' />
           <p className='text-primary-foreground'>
             One 11 offers luxury car rental services for those who desire the freedom and thrill of self-driving. With a premium fleet of high-end vehicles, customers can experience the ultimate in comfort, style, and performance, all while enjoying the convenience and privacy of driving themselves.

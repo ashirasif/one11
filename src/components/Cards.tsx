@@ -2,12 +2,12 @@ import React from 'react'
 
 function Cards() {
   return (
-    <div className='flex flex-col min-h-screen justify-center items-center bg-black'>
-      <div className='grid w-2/3 grid-cols-4 grid-rows-3 gap-2'>
+    <div className='flex px-4 flex-col min-h-screen justify-center items-center bg-black'>
+      <div className='grid lg:w-2/3 lg:grid-cols-4 grid-cols-2 lg:grid-rows-3 grid-rows-5 gap-2'>
         <div className='bg-[url("https://www.one11-group.com/wp-content/uploads/2024/09/porche.jpeg")] bg-cover p-4 text-white  font-semibold bg-center rounded-lg w-full  flex items-end car-card'>
           <span className='text-sm'>Porsche Cayenne GTS</span>
         </div>
-        <div className='bg-[url("https://www.one11-group.com/wp-content/uploads/2024/09/ursus-2.png")] bg-cover p-4 text-white  font-semibold bg-center rounded-lg w-full  flex col-span-2 row-span-2 items-end car-card'>
+        <div className='bg-[url("https://www.one11-group.com/wp-content/uploads/2024/09/ursus-2.png")] bg-cover p-4 text-white  font-semibold bg-center rounded-lg w-full  flex lg:col-span-2 lg:row-span-2 items-end car-card'>
           <span className='text-sm'>Lamborghini Urus</span>
         </div>
         <div className='bg-[url("https://www.one11-group.com/wp-content/uploads/2024/09/ran333.png")] bg-cover p-4 text-white  font-semibold bg-center rounded-lg w-full h-56 flex items-end car-card'>
