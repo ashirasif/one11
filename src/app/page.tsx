@@ -2,11 +2,16 @@
 import { Canvas } from '@react-three/fiber'
 import { useEffect, useState } from 'react'
 import Scene from '~/components/3d/scene'
+import About from '~/components/About'
 import Cards from '~/components/Cards'
+import Chauffer from '~/components/Chauffer'
 import Clients from '~/components/Clients'
+import Footer from '~/components/Footer'
 import HeroSection from '~/components/HeroSection'
 import Markup from '~/components/Markup'
 import Navbar from '~/components/Navbar'
+import ServiceCards from '~/components/ServiceCards'
+import Testimonials from '~/components/Testimonials'
 
 function Page() {
 
@@ -32,6 +37,11 @@ function Page() {
           <HeroSection/>
           <Markup/>
           <Cards/>
+          <About/>
+          <ServiceCards/>
+          <Chauffer/>
+          <Testimonials/>
+          <Footer />
         </div>
       </div>
       <div className='absolute top-0 left-0 w-screen h-screen'>

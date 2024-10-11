@@ -11,7 +11,7 @@ export default function Markup() {
   const carIsVisible = useIsVisible(carRef)
 
   return (
-    <div className='h-screen bg-stone-950 relative flex flex-col items-center justify-center'>
+    <div className='h-screen bg-gradient-to-b from-stone-950 to-black relative flex flex-col items-center justify-center'>
       <h1 ref={ref} className={cn('uppercase transition-opacity duration-1000 text-center relative z-10 2xl:text-9xl bg-gradient-to-r from-stone-50 to-neutral-800 bg-clip-text text-transparent', isVisible ? "opacity-100" : "opacity-10")}>
         On-demand Rides <br />
         for your <br />
