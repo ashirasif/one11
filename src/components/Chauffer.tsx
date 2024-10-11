@@ -14,11 +14,7 @@ export default function Chauffer() {
             </span>
           </h1>
           <p className="leading-7 text-primary-foreground lg:w-96 [&:not(:first-child)]:mt-6 text-center lg:text-left">
-            At Homes Textile, we bring you a curated collection of the
-            finest textile products, crafted with care and designed to
-            elevate your home and lifestyle. Our commitment to quality,
-            variety, and customer satisfaction sets us apart in the world
-            of textiles.
+            Our fleet consists of premium vehicles equipped with state-of-the-art amenities, providing a luxurious travel experience. We tailor our services to meet the unique needs and preferences of each client, ensuring a memorable and enjoyable journey.
           </p>
         </div>
         <div className="overflow-hidden">

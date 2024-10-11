@@ -19,7 +19,7 @@ export default function About() {
         </div>
         <div className='lg:col-span-6'>
           <p className='text-primary-foreground text-center lg:text-left'>
-            stablished in November 2023, One11 Luxury Rentals is renowned for offering premium luxury car rentals throughout the UAE. Our meticulously curated selection of high-end vehicles ensures a superior blend of comfort and elegance, whether you’re navigating the vibrant streets of Dubai or discovering the picturesque landscapes of the Emirates. Committed to excellence, we strive to provide exceptional service, ensuring that every aspect of your experience with us exceeds expectations.
+            Established in November 2023, One11 Luxury Rentals is renowned for offering premium luxury car rentals throughout the UAE. Our meticulously curated selection of high-end vehicles ensures a superior blend of comfort and elegance, whether you’re navigating the vibrant streets of Dubai or discovering the picturesque landscapes of the Emirates. Committed to excellence, we strive to provide exceptional service, ensuring that every aspect of your experience with us exceeds expectations.
           </p>
         </div>
       </div>

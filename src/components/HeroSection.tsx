@@ -15,17 +15,13 @@ function HeroSection() {
           <span className='font-inter'>Trusted by 40+ companies</span>
         </div>
       </div> */}
-      <h1 className="font-inter text-4xl 2xl:text-6xl font-bold leading-tight tracking-tighter">
-        Pioneering Engineering and{" "}
-        <span className="gold-text">Technological Innovations</span> for a
-        Rapidly Evolving World
+      <h1 className="font-inter text-4xl 2xl:text-6xl font-black leading-tight tracking-tighter">
+        Book your dream car  at {" "} 
+        <span className="gold-text">One11</span>{" "}
+        and experience UAE in style.
       </h1>
       <p className="font-inter font-medium text-white">
-        Metallon Delta Corporation (MDC) drives engineering and technological
-        innovation, continually seeking groundbreaking ideas and solutions. Our
-        expert team delivers cutting-edge, cost-effective products and services.
-        We our customers receive the most viable solutions, both nationally and
-        internationally.
+        At One11 Luxury Rentals, we redefine luxury car rentals with innovation and exceptional service. Our exclusive fleet, featuring prestigious brands like Mercedes-Benz, BMW, and Rolls-Royce, is tailored for your needs, whether for short-term events or long-term rentals. Experience the ultimate in luxury—no deposit required.
       </p>
       <Button size={"lg"}>Book Now</Button>
     </div>
