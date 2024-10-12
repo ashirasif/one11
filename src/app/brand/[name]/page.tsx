@@ -21,9 +21,9 @@ export default function Page({
 
 
   return (
-    <>
+    <main className='min-h-screen flex flex-col bg-gradient-to-b from-stone-950 to-black'>
       <Navbar />
-      <div className='px-12 py-24 bg-gradient-to-b from-stone-950 to-black text-primary-foreground'>
+      <div className='px-12 py-24 bg-gradient-to-b from-stone-950 to-black flex-1 text-primary-foreground'>
         <div className='max-w-screen-xl mx-auto'>
           <h1 className='scroll-m-20 font-black tracking-tight first:mt-0 bg-gradient-to-r from-stone-50 to-neutral-600 bg-clip-text text-transparent'>
             {params.name.split('-').join(' ')}
@@ -35,11 +35,13 @@ export default function Page({
               cars.map((car) => (
                 <Link key={car.name} href={`/vehicle/${car.name.split(' ').join('-')}`}>
                   <Card className='border border-primary hover:bg-primary/50 hover:cursor-pointer transition-all duration-300 pt-4 h-72'>
-                    <CardContent className='text-center  flex flex-col gap-8'>
+                    <CardContent className='text-center  flex flex-col gap-8 h-full'>
                       <img src="/Black-Car.png" alt="" />
-                      <h3 className='font-black'>
-                        {car.name}
-                      </h3>
+                      <div className='flex-1 flex flex-col justify-center'>
+                        <h3 className='font-black'>
+                          {car.name}
+                        </h3>
+                      </div>
                     </CardContent>
                   </Card>
                 </Link>
@@ -49,7 +51,7 @@ export default function Page({
         </div>
       </div>
       <Footer />
-    </>
+    </main>
   )
 }
 

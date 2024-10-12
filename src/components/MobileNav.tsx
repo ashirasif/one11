@@ -29,8 +29,12 @@ export function MobileNav() {
         </Button>
       </SheetTrigger>
       <SheetContent className="max-w-full bg-black text-primary-foreground w-full flex-col flex gap-4">
-        <h1>Home</h1>
-        <h3>Emergency</h3>
+        <Link href="/">
+          <h1>Home</h1>
+        </Link>
+        <Link href="/emergency">
+          <h3>Emergency</h3>
+        </Link>
         <Accordion type="single" collapsible className="w-full flex flex-col gap-4">
           <AccordionItem value="item-1">
             <AccordionTrigger>
