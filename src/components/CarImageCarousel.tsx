@@ -49,11 +49,6 @@ export function CarImageCarousel(props: {images: string[]}) {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <div className="flex justify-center gap-2">
-          <span>{current}</span>
-          <span>of</span>
-          <span>{count}</span>
-        </div>
       </div>
       <CarouselNext className="bg-primary text-primary-foreground" />
     </Carousel>

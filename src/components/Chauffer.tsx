@@ -8,7 +8,7 @@ export default function Chauffer() {
       <div className="relative z-10 flex max-w-screen-xl mx-auto mt-64 max-lg:flex-col-reverse h-full items-center justify-evenly lg:gap-2 gap-24 rounded-2xl p-4 shadow-amber-700 shadow-[0_0_60px_7px_rgba(0,0,0,0.5)]">
         <div className="flex h-full flex-col justify-center gap-4">
           <h1 className="font-black gold-text uppercase tracking-tight text-center lg:text-left">
-            Chauffer <br />
+            chauffeur <br />
             <span className='bg-gradient-to-r from-stone-50 to-stone-400 bg-clip-text text-transparent'>
               Services
             </span>
@@ -20,7 +20,7 @@ export default function Chauffer() {
         <div className="overflow-hidden">
           <Image
             alt="lounge-image"
-            src="/chaf.jpg"
+            src="/chaf.png"
             width={400}
             height={400}
             className="rounded-3xl"

@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { CarImageCarousel } from '~/components/CarImageCarousel'
 import Footer from '~/components/Footer'
@@ -16,19 +17,21 @@ import Link from 'next/link'
 export default function Page(
   { params }: { params: { name: string } }
 ) {
-  console.log(params)
   const car = getCarByName(params.name)
 
   if (!car) {
     return <div>Not found</div>
   }
 
+  const images = Array.from({ length: car.images! }, (_, i) => `/images/${car.name} ${i + 1}.jpeg`) as string[]
+
+
   return (
     <>
       <Navbar />
       <div className='px-12 py-24 bg-gradient-to-b from-stone-950 to-black text-primary-foreground'>
         <div className='flex max-lg:flex-col gap-12 justify-center max-w-screen-xl items-center mx-auto'>
-          <CarImageCarousel images={[`/images/${params.name.replaceAll('-', ' ')} 1.jpeg`, `/images/${params.name.replaceAll('-', ' ')} 2.jpeg`, `/images/${params.name.replaceAll('-', ' ')} 3.jpeg`, `/images/${params.name.replaceAll('-', ' ')} 4.jpeg`]} />
+          <CarImageCarousel images={images} />
           <Separator className='my-2 lg:hidden' />
           <div className='flex flex-col self-start h-full justify-center max-sm:gap-2 gap-4 w-full basis-1/2'>
             <div className='flex flex-col justify-center h-full gap-4'>
@@ -38,7 +41,7 @@ export default function Page(
               <Separator className='bg-primary' />
               <div className='flex flex-col gap-4'>
                 {
-                  Object.entries(car).filter(([key]) => key !== 'name').map(([key, value]) => (
+                  Object.entries(car).filter(([key]) => key !== 'name' && key != 'images').map(([key, value]) => (
                     <div key={key} className='flex gap-4 items-center'>
                       <span className='font-bold capitalize'>{key}</span>
                       <span className='capitalize'>{value}</span>

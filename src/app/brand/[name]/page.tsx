@@ -34,9 +34,9 @@ export default function Page({
             {
               cars.map((car) => (
                 <Link key={car.name} href={`/vehicle/${car.name.split(' ').join('-')}`}>
-                  <Card className='border border-primary hover:bg-primary/50 hover:cursor-pointer transition-all duration-300 pt-4 h-72'>
+                  <Card className='border border-primary hover:bg-primary/50 hover:cursor-pointer transition-all duration-300 pt-4'>
                     <CardContent className='text-center  flex flex-col gap-8 h-full'>
-                      <img src="/Black-Car.png" alt="" />
+                      <img src={`/images/${car.name} 1.jpeg`} alt="" />
                       <div className='flex-1 flex flex-col justify-center'>
                         <h3 className='font-black'>
                           {car.name}

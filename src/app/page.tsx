@@ -12,6 +12,7 @@ import Markup from '~/components/Markup'
 import Navbar from '~/components/Navbar'
 import ServiceCards from '~/components/ServiceCards'
 import Testimonials from '~/components/Testimonials'
+import { getAllCars } from '~/lib/data'
 
 function Page() {
 
@@ -27,7 +28,7 @@ function Page() {
     return () => window.removeEventListener('mousemove', handleMouseMove)
   }, [])
 
-
+  getAllCars()
 
   return (
     <div className='relative'>
