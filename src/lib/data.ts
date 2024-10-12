@@ -12,18 +12,20 @@ const carsArray = [
     Torque: '627 lb-ft @ 2,500 rpm',
     'Fuel Type': 'Premium unleaded',
     'Fuel Tank Capacity': '26.4 gallons',
-    category: 'Performance SUVs'
+    category: 'Performance SUVs',
+    images: 3
   },
   {
     brand: 'Porsche',
-    name: 'Porsche Cayenne GTS',
+    name: 'Porsche Cayenne',
     'Base Engine': 'Turbocharged 4.0-liter V8',
     Horsepower: '348 hp',
     'E-Hybrid': 'Turbocharged V6 + Electric Motor',
     'Combined Power': '463 hp',
     Torque: '553 lb-ft',
     Transmission: 'Eight-speed automatic',
-    category: 'Performance SUVs'
+    category: 'Performance SUVs',
+    images: 4
   },
   {
     brand: 'Land Rover',
@@ -33,7 +35,8 @@ const carsArray = [
     Transmission: 'Eight-speed automatic',
     'Drive Type': 'Standard all-wheel drive with adjustable air suspension',
     'Fuel Economy': '20 mpg city / 25 mpg highway',
-    category: 'Performance SUVs'
+    category: 'Performance SUVs',
+    images: 3
   },
   {
     brand: 'Lamborghini',
@@ -59,7 +62,8 @@ const carsArray = [
     Drivetrain: 'All-Wheel Drive',
     'Fuel Tank Capacity': '22.5 gallons',
     'Seating Capacity': '5 seater',
-    category: 'Performance SUVs'
+    category: 'Performance SUVs',
+    images: 3
   },
   {
     brand: 'Audi',
@@ -71,7 +75,8 @@ const carsArray = [
     Drivetrain: 'Quattro all-wheel drive',
     Transmission: 'Eight-speed automatic',
     Wheels: '22-inch lightweight wheels',
-    category: 'Performance SUVs'
+    category: 'Performance SUVs',
+    images: 2
   },
   {
     brand: 'Mercedes Benz',
@@ -84,7 +89,8 @@ const carsArray = [
     Differentials: 'Triple differential locks (front, centre, rear) with low-range',
     Suspension: 'Independent front suspension, lower centre of gravity',
     'Ride Quality': 'Improved road manners, composed ride on most surfaces',
-    category: 'Performance SUVs'
+    category: 'Performance SUVs',
+    images: 4
   },
 
   // Muscle Cars
@@ -95,7 +101,8 @@ const carsArray = [
     Horsepower: '~450 hp',
     '0-60 mph': '4.3 seconds',
     Transmission: '10-speed automatic',
-    category: 'Muscle Cars'
+    category: 'Muscle Cars',
+    images: 3
   },
   {
     brand: 'Chevrolet',
@@ -104,7 +111,8 @@ const carsArray = [
     Horsepower: '455 hp',
     '0-60 mph': '4.4 seconds',
     Transmission: '10-speed automatic',
-    category: 'Muscle Cars'
+    category: 'Muscle Cars',
+    images: 4
   },
   {
     brand: 'Dodge',
@@ -113,7 +121,8 @@ const carsArray = [
     Horsepower: '485 hp',
     '0-60 mph': '4.2 seconds',
     Transmission: '8-speed automatic',
-    category: 'Muscle Cars'
+    category: 'Muscle Cars',
+    images: 4
   },
   {
     brand: 'Dodge',
@@ -135,7 +144,8 @@ const carsArray = [
     'Top Speed': '~155 mph',
     Seating: '5 passengers',
     Features: 'iDrive system, Apple CarPlay, Android Auto, advanced safety systems',
-    category: 'Performance Cars'
+    category: 'Performance Cars',
+    images: 4
   },
 
   // Convertibles
@@ -146,7 +156,8 @@ const carsArray = [
     Horsepower: '255 hp',
     '0-60 mph': '~5.5 seconds',
     Transmission: '8-speed automatic',
-    category: 'Convertibles'
+    category: 'Convertibles',
+    images: 4
   },
   {
     brand: 'Chevrolet',
@@ -164,7 +175,8 @@ const carsArray = [
     Horsepower: '300 hp',
     '0-60 mph': '3.7 seconds',
     Transmission: '6-speed Automatic',
-    category: 'Convertibles'
+    category: 'Convertibles',
+    images: 4
   },
   {
     brand: 'Mercedes Benz',
@@ -216,7 +228,8 @@ const carsArray = [
     '0 to 100 km/h': '5.6s',
     'Top Speed': '250 km/h',
     Drive: 'Quattro AWD with 48-volt hybrid assist',
-    category: 'SUVs'
+    category: 'SUVs',
+    images: 3
   },
   {
     brand: 'Mercedes Benz',
@@ -228,7 +241,20 @@ const carsArray = [
     'Fuel Economy (City/Highway)': '15/19 mpg',
     Performance: 'Smooth air suspension with Maybach mode for ultimate comfort',
     Seating: '4 seats with power-adjustable, heated, and massaging rear recliner seats',
-    category: 'SUVs'
+    category: 'SUVs',
+    images: 4
+  },
+  {
+    brand: 'Chevrolet',
+    name: 'Chevrolet Captiva',
+    'Engine Options': ' 2.4L or 2.0L turbo, ~145-250 hp',
+    Horsepower: '181 hp',
+    '0-60 mph': '11.30 seconds',
+    Transmission: '6-speed automatic or CVT',
+    Drivetrain: 'FWD or AWD',
+    Seating: '5 to 7 passengers',
+    category: 'SUVS',
+    images: 4
   },
   {
     brand: 'Cadillac',
@@ -241,7 +267,8 @@ const carsArray = [
     'Seating Capacity': '7 seats',
     'Fuel Economy (City/Highway)': '14/19 MPG',
     'Fuel Type': 'Premium unleaded',
-    category: 'SUVs'
+    category: 'SUVs',
+    images: 4
   },
   {
     brand: 'Infiniti',
@@ -251,7 +278,8 @@ const carsArray = [
     'Base Engine Type': 'Gas',
     Horsepower: '400 hp @ 5,800 rpm',
     Torque: '413 lb-ft @ 4,000 rpm',
-    category: 'SUVs'
+    category: 'SUVs',
+    images: 4
   },
   {
     brand: 'Nissan',
@@ -262,7 +290,8 @@ const carsArray = [
     Transmission: '7-speed shiftable automatic',
     'Drive Type': 'Four-wheel drive (4WD) with selectable low-range gearing',
     'Towing Capacity': '3,500 kg (braked)',
-    category: 'SUVs'
+    category: 'SUVs',
+    images: 3
   },
   {
     brand: 'Land Rover',
@@ -272,7 +301,8 @@ const carsArray = [
     'Drive Type': 'All-wheel drive',
     Cylinders: 'Inline 4',
     'Total Seating': '5',
-    category: 'SUVs'
+    category: 'SUVs',
+    images: 3
   },
   {
     brand: 'Land Rover',
@@ -286,7 +316,8 @@ const carsArray = [
     Transmission: '8-speed shiftable automatic',
     'Drive Type': 'All-wheel drive',
     'Total Seating': '5',
-    category: 'SUVs'
+    category: 'SUVs',
+    images: 3
   },
   {
     brand: 'Land Rover',
@@ -298,7 +329,8 @@ const carsArray = [
     'Total Seating': '5',
     'Base Engine (P250)': 'Horsepower: 247 hp',
     'Acceleration (0-60 mph)': '7.4 seconds',
-    category: 'SUVs'
+    category: 'SUVs',
+    images: 2
   },
   {
     brand: 'Rolls Royce',
@@ -318,7 +350,8 @@ const carsArray = [
     'Acceleration (0 - 100 km/h)': '4.3 sec',
     Performance: '0-60 mph in 3.9 sec',
     Features: 'Panoramic sunroof, dual-zone climate, optional massaging seats, remote start',
-    category: 'SUVs'
+    category: 'SUVs',
+    images: 3
   },
   {
     brand: 'Chevrolet',
@@ -345,7 +378,20 @@ const carsArray = [
     'Combined Output': '510 hp, 553 lb-ft',
     Battery: '22.7 kWh lithium-ion',
     Transmission: '9-speed automatic',
-    category: 'Sedans'
+    category: 'Sedans',
+    images: 3
+  },
+  {
+    brand: 'Mercedes Benz',
+    name: 'Mercedes S580',
+    Engine:' 4.0 L Twin Turbo Gas/Electric V-8',
+    'Horse Power': '496 hp',
+    Torque:' 516 lb-ft',
+    Transmission: '9-speed shiftable automatic',
+    '0 to 100 km/h': '4.4 s',
+    'Top speed': '260 km/h',
+    category: 'Performance Cars',
+    images: 3
   },
   {
     brand: 'Mercedes Benz',
@@ -370,7 +416,8 @@ const carsArray = [
     Transmission: '8-speed dual-clutch automatic',
     '0 to 100 km/h': '6.8s',
     'Top speed': '209 km/h',
-    category: 'Sedans'
+    category: 'Sedans',
+    images: 3
   },
   {
     brand: 'Mercedes Benz',
@@ -385,14 +432,51 @@ const carsArray = [
   },
   {
     brand: 'BMW',
-    name: 'BMW 740',
+    name: 'BMW 840i',
+    Engine: 'B58 Turbocharged I6',
+    'Horse Power': '335-hp',
+    Torque: '369 lb-ft',
+    Transmission: '8-speed Sport Automatic',
+    '0 to 100 km/h': '5.2s',
+    'Top speed': '250 km/h',
+    category: 'Sedans',
+    images: 3
+  },
+  {
+    brand: 'BMW',
+    name: 'BMW M850i',
+    Engine: '5.0 L M70 V12 engine',
+    'Horse Power': '523-hp',
+    Torque: '332 lb-ft',
+    Transmission: '4-speed automatic',
+    '0 to 100 km/h': '3.9s',
+    'Top speed': '256 km/h',
+    category: 'Sedans',
+    images: 4
+  },
+  {
+    brand: 'BMW',
+    name: 'BMW M5',
+    Engine: 'twin-turbo 4.4-liter V-8',
+    'Horse Power': '600-hp',
+    Torque: '553 lb-ft',
+    Transmission: '8-speed ZF GA8HP75Z automatic',
+    '0 to 100 km/h': '3.5s',
+    'Top speed': '250 km/h',
+    category: 'Sedans',
+    images: 4
+  },
+  {
+    brand: 'BMW',
+    name: 'BMW 740i',
     Engine: '3.0 V6 twin turbo',
     'Horse Power': '320 hp',
     Torque: '330 lb-ft',
     Transmission: '8-speed automatic',
     '0 to 100 km/h': '5.4s',
     'Top speed': '260 km/h',
-    category: 'Sedans'
+    category: 'Sedans',
+    images: 4
   },
   {
     brand: 'BMW',
@@ -403,7 +487,8 @@ const carsArray = [
     Transmission: '8-speed automatic',
     '0 to 100 km/h': '5.8s',
     'Top speed': '260 km/h',
-    category: 'Sedans'
+    category: 'Sedans',
+    images: 4
   },
   {
     brand: 'BMW',
@@ -414,7 +499,8 @@ const carsArray = [
     Transmission: '8-speed automatic',
     '0 to 100 km/h': '5.8s',
     'Top speed': '260 km/h',
-    category: 'Sedans'
+    category: 'Sedans',
+    images: 4
   },
   {
     brand: 'BMW',
@@ -425,7 +511,8 @@ const carsArray = [
     Transmission: '8-speed automatic',
     '0 to 100 km/h': '5.9s',
     'Top speed': '260 km/h',
-    category: 'Sedans'
+    category: 'Sedans',
+    images: 4
   },
   {
     brand: 'Audi',
@@ -435,7 +522,8 @@ const carsArray = [
     Power: '201 hp @ 6200 rpm',
     Torque: '221 lb-ft @ 1600 rpm',
     Transmission: '7-speed dual-clutch automatic',
-    category: 'Sedans'
+    category: 'Sedans',
+    images: 4
   },
   {
     brand: 'Audi',
@@ -446,7 +534,8 @@ const carsArray = [
     Torque: '273 lb-ft @ 1600 rpm',
     Transmission: '7-speed dual-clutch automatic',
     Suspension: 'Multilink (Front/Rear)',
-    category: 'Sedans'
+    category: 'Sedans',
+    images: 4
   },
   {
     brand: 'Audi',
@@ -457,7 +546,8 @@ const carsArray = [
     'Combined Output': '510 hp, 553 lb-ft',
     Battery: '22.7 kWh lithium-ion',
     Transmission: '9-speed automatic',
-    category: 'Sedans'
+    category: 'Sedans',
+    images: 4
   },
   {
     brand: 'Mercedes Benz',
@@ -468,7 +558,20 @@ const carsArray = [
     Transmission: '7-speed dual-clutch automatic',
     '0 to 100 km/h': '7.2 s',
     'Top speed': '210 km/h',
-    category: 'Sedans'
+    category: 'Sedans',
+    images: 4
+  },
+  {
+    brand: 'Mercedes Benz',
+    name: 'Mercedes Benz CLA250',
+    Engine: '2.0L Inline-4 turbo with mild hybrid drive',
+    'Horse Power': '221 hp',    
+    Torque: '258 lb-ft',    
+    Transmission: '7-speed dual-clutch automatic',    
+    '0 to 100 km/h': '6.3s',    
+    'Top speed': '210 km/h',
+    category: 'Sedans',
+    images: 3
   },
 
   // Sports Cars (from Brands section)
@@ -499,35 +602,67 @@ const carsArray = [
     'Seating Capacity': '7-8 seats',
     category: 'SUVs'
   },
+  // {
+  //   brand: 'Ferrari',
+  //   name: 'Ferrari 488 Pista',
+  //   Engine: '3.9L Twin-Turbo V8',
+  //   Horsepower: '710 hp @ 8,000 rpm',
+  //   Torque: '568 lb-ft @ 3,000 rpm',
+  //   Transmission: '7-speed dual-clutch automatic',
+  //   '0-60 mph': '2.7 seconds',
+  //   'Top Speed': '211 mph',
+  //   'Fuel Economy (City/Highway)': '15/20 MPG',
+  //   'Drive Type': 'Rear-wheel drive',
+  //   category: 'Sports Cars'
+  // },
   {
     brand: 'Ferrari',
-    name: 'Ferrari 488 Pista',
-    Engine: '3.9L Twin-Turbo V8',
-    Horsepower: '710 hp @ 8,000 rpm',
-    Torque: '568 lb-ft @ 3,000 rpm',
-    Transmission: '7-speed dual-clutch automatic',
-    '0-60 mph': '2.7 seconds',
-    'Top Speed': '211 mph',
-    'Fuel Economy (City/Highway)': '15/20 MPG',
-    'Drive Type': 'Rear-wheel drive',
-    category: 'Sports Cars'
+    name: 'Ferrari 296 GTB',
+    Engine: '3.0L V6 Twin-Turbo + electric motor',
+    Horsepower: '~818 hp',
+    Torque: '546 lb-ft',
+    Transmission: '8-speed dual-clutch, RWD',
+    '0-100 mph': '~2.9 seconds',
+    'Top Speed': '330 km/h',
+    category: 'Sports Cars',
+    images: 3
   },
   {
     brand: 'Ferrari',
-    name: 'Ferrari Roma',
-    Engine: '3.9L Twin-Turbo V8',
-    Horsepower: '612 hp @ 7,500 rpm',
-    Torque: '561 lb-ft @ 3,000-5,750 rpm',
-    Transmission: '8-speed dual-clutch automatic',
-    '0-60 mph': '3.4 seconds',
-    'Top Speed': '199 mph',
-    'Fuel Economy (City/Highway)': '17/22 MPG',
-    'Drive Type': 'Rear-wheel drive',
-    category: 'Sports Cars'
+    name: 'Ferrari SF 90',
+    Engine: '4.0L V8 Twin-Turbo + electric motors',
+    Power: '~1,000 hp',
+    '0-100 km/h':' ~2.5 seconds',
+    'Top Speed': '~340 km/h',
+    Transmission: '8-speed dual-clutch, AWD',
+    category: 'Sports Cars',
+    images: 3
+  },
+  {
+    brand: 'Ferrari',
+    name: 'Ferrari F8',
+    Engine: '3.9L V8 Twin-Turbo',
+    Power: '~710 hp',
+    '0-100 km/h': '~2.9 seconds',
+    'Top Speed': '~340 km/h',
+    Transmission: '7-speed dual-clutch, RWD',
+    category: 'Sports Cars',
+    images: 3
+  },
+  {
+    brand: 'Lamborghini',
+    name: 'Lamborghini Hurracan',
+    Engine: '5.2L V10',
+    Power: '~610 hp (EVO) / ~631 hp (Performante)',
+    '0-100 km/h': '~3.2 seconds (EVO)',
+    'Top Speed': '~325 km/h',
+    Transmission:' 7-speed dual-clutch, AW',
+    category: 'Sports Cars',
+    images: 3
   },
   {
     brand: 'Maserati',
-    name: 'Maserati Levante Trofeo',
+    name: 'Maserati Levante',
     Engine: '3.8L Twin-Turbocharged V8',
     Horsepower: '580 hp @ 6,250 rpm',
     Torque: '538 lb-ft @ 2,500-5,000 rpm',
@@ -536,7 +671,20 @@ const carsArray = [
     'Top Speed': '187 mph',
     'Fuel Economy (City/Highway)': '13/20 MPG',
     'Drive Type': 'All-wheel drive',
-    category: 'SUVs'
+    category: 'SUVs',
+    images: 4
+  },
+  {
+    brand: 'Maserati',
+    name: 'Maserati Grecale',
+    Engines: '2.0L I4 (296 hp) | 3.0L V6 (523 hp)',
+    '0-60 mph': '5.6s (I4) | 3.6s (V6)',
+    'Top Speed': '149 mph (I4) | 177 mph (V6)',
+    'Fuel Economy': '~24 mpg',
+    Length: '~193 in',
+    category: 'SUVs',
+    images: 4
+
   },
   {
     brand: 'Maserati',
@@ -562,7 +710,22 @@ const carsArray = [
     'Top Speed': '212 mph',
     'Fuel Economy (City/Highway)': '15/22 MPG',
     'Drive Type': 'Rear-wheel drive',
-    category: 'Supercars'
+    category: 'Supercars',
+    images: 3
+  },
+  {
+    brand: 'McLaren',
+    name: 'Maserati GranTurismo',
+    Engine: ' 3.0L V6, 490 hp, 0-100 km/h in 3.9s, top speed 302 km/h',
+    Horsepower: '550 hp',
+    'Key Features': 'Digital displays, adaptive suspension, and advanced driver assistance systems (ADAS)',
+    Transmission: ' 8-speed automatic, rear-wheel drive (Modena, Trofeo), all-wheel drive (Folgore)',
+    '0-100 mph': '3.5s',
+    'Top Speed': '320 km/h',
+    'Fuel Economy (City/Highway)': '760 hp, 0-100 km/h in 2.7s, range 450 km',
+    'Drive Type': 'Rear-wheel drive',
+    category: 'Grand Tourers',
+    images: 3
   },
   {
     brand: 'McLaren',
