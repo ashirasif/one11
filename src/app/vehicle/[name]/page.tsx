@@ -28,7 +28,7 @@ export default function Page(
       <Navbar />
       <div className='px-12 py-24 bg-gradient-to-b from-stone-950 to-black text-primary-foreground'>
         <div className='flex max-lg:flex-col gap-12 justify-center max-w-screen-xl items-center mx-auto'>
-          <CarImageCarousel images={["/Black-Car.png", "jdlfjlsk"]} />
+          <CarImageCarousel images={[`/images/${params.name.replaceAll('-', ' ')} 1.jpeg`, `/images/${params.name.replaceAll('-', ' ')} 2.jpeg`, `/images/${params.name.replaceAll('-', ' ')} 3.jpeg`, `/images/${params.name.replaceAll('-', ' ')} 4.jpeg`]} />
           <Separator className='my-2 lg:hidden' />
           <div className='flex flex-col self-start h-full justify-center max-sm:gap-2 gap-4 w-full basis-1/2'>
             <div className='flex flex-col justify-center h-full gap-4'>
