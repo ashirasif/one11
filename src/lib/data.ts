@@ -721,7 +721,7 @@ const carsArray = [
     images: 3
   },
   {
-    brand: 'McLaren',
+    brand: 'Masarati',
     name: 'Maserati GranTurismo',
     Engine: ' 3.0L V6, 490 hp, 0-100 km/h in 3.9s, top speed 302 km/h',
     Horsepower: '550 hp',
@@ -758,8 +758,6 @@ export function getAllCategories() {
 
 export function getAllCars() {
   // list all cars name that dont have images attribute
-  const carsWithoutImages = carsArray.filter(car => !car.images).map(car => car.name);
-  console.log(carsWithoutImages);
   return carsArray;
 }
 

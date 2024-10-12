@@ -18,7 +18,7 @@ export default function Markup() {
         <span className={cn(
           "transition-colors duration-1000",
           isVisible ? "text-white" : "text-transparent"
-        )}>Business</span> Needs
+        )}>Luxury</span> Needs
       </h1>
       <img ref={carRef} src="/Black-Car.png" className={cn('absolute top-[50%] transition-opacity duration-1000 brightness-200 translate-y-[-50%] w-3/4 lg:w-2/4', carIsVisible ? "opacity-100" : "opacity-10")} alt="" />
     </div>
