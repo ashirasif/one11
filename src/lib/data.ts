@@ -136,7 +136,7 @@ const carsArray = [
   // Performance Cars
   {
     brand: 'BMW',
-    name: 'BMW M550',
+    name: 'BMW M550i',
     Engine: '4.4L V8 twin-turbo, 523 hp',
     Transmission: '8-speed automatic',
     Drivetrain: 'AWD',
@@ -149,16 +149,16 @@ const carsArray = [
   },
 
   // Convertibles
-  {
-    brand: 'BMW',
-    name: 'BMW 430i',
-    Engine: '2.0L turbocharged inline-4',
-    Horsepower: '255 hp',
-    '0-60 mph': '~5.5 seconds',
-    Transmission: '8-speed automatic',
-    category: 'Convertibles',
-    images: 4
-  },
+  // {
+  //   brand: 'BMW',
+  //   name: 'BMW 430i',
+  //   Engine: '2.0L turbocharged inline-4',
+  //   Horsepower: '255 hp',
+  //   '0-60 mph': '~5.5 seconds',
+  //   Transmission: '8-speed automatic',
+  //   category: 'Convertibles',
+  //   images: 4
+  // },
   // {
   //   brand: 'Chevrolet',
   //   name: 'Chevrolet Corvette C8 Stingray',
@@ -190,26 +190,26 @@ const carsArray = [
   },
 
   // Electric Cars
-  {
-    brand: 'Tesla',
-    name: 'Tesla Model 3',
-    Battery: 'Long Range, Performance models',
-    Range: '272-358 miles (EPA estimated)',
-    '0-60 mph': '3.1-5.8 seconds depending on the model',
-    Horsepower: 'Up to 450 hp (Performance)',
-    category: 'Electric Cars',
-    images: 3
-  },
-  {
-    brand: 'Tesla',
-    name: 'Tesla Model Y',
-    Battery: 'Long Range, Performance models',
-    Range: '303-330 miles (EPA estimated)',
-    '0-60 mph': '3.5-4.8 seconds depending on the model',
-    Horsepower: 'Up to 456 hp (Performance)',
-    category: 'Electric Cars',
-    images: 4
-  },
+  // {
+  //   brand: 'Tesla',
+  //   name: 'Tesla Model 3',
+  //   Battery: 'Long Range, Performance models',
+  //   Range: '272-358 miles (EPA estimated)',
+  //   '0-60 mph': '3.1-5.8 seconds depending on the model',
+  //   Horsepower: 'Up to 450 hp (Performance)',
+  //   category: 'Electric Cars',
+  //   images: 3
+  // },
+  // {
+  //   brand: 'Tesla',
+  //   name: 'Tesla Model Y',
+  //   Battery: 'Long Range, Performance models',
+  //   Range: '303-330 miles (EPA estimated)',
+  //   '0-60 mph': '3.5-4.8 seconds depending on the model',
+  //   Horsepower: 'Up to 456 hp (Performance)',
+  //   category: 'Electric Cars',
+  //   images: 4
+  // },
   {
     brand: 'Tesla',
     name: 'Tesla Model X',
