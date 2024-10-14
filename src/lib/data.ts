@@ -683,20 +683,20 @@ const carsArray = [
     images: 4
 
   },
-  {
-    brand: 'Maserati',
-    name: 'Maserati Quattroporte',
-    Engine: '3.0L Twin-Turbocharged V6 / 3.8L V8 (GTS model)',
-    Horsepower: '424 hp (V6) / 580 hp (V8)',
-    Torque: '428 lb-ft (V6) / 524 lb-ft (V8)',
-    Transmission: '8-speed automatic',
-    '0-60 mph': '4.8 seconds (V6) / 4.2 seconds (V8)',
-    'Top Speed': '179 mph (V6) / 190 mph (V8)',
-    'Fuel Economy (City/Highway)': '16/23 MPG (V6) / 13/20 MPG (V8)',
-    'Drive Type': 'Rear-wheel drive',
-    category: 'Sedans',
-    images: 3
-  },
+  // {
+  //   brand: 'Maserati',
+  //   name: 'Maserati Quattroporte',
+  //   Engine: '3.0L Twin-Turbocharged V6 / 3.8L V8 (GTS model)',
+  //   Horsepower: '424 hp (V6) / 580 hp (V8)',
+  //   Torque: '428 lb-ft (V6) / 524 lb-ft (V8)',
+  //   Transmission: '8-speed automatic',
+  //   '0-60 mph': '4.8 seconds (V6) / 4.2 seconds (V8)',
+  //   'Top Speed': '179 mph (V6) / 190 mph (V8)',
+  //   'Fuel Economy (City/Highway)': '16/23 MPG (V6) / 13/20 MPG (V8)',
+  //   'Drive Type': 'Rear-wheel drive',
+  //   category: 'Sedans',
+  //   images: 3
+  // },
   {
     brand: 'McLaren',
     name: 'McLaren 720S',
