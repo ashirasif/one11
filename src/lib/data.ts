@@ -158,7 +158,7 @@ const carsArray = [
     '0-60 mph': '~5.5 seconds',
     Transmission: '8-speed automatic',
     category: 'Convertibles',
-    images: 4
+    images: 3
   },
   {
     brand: 'Chevrolet',
