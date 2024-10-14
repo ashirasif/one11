@@ -86,7 +86,7 @@ function Navbar() {
       </div>
 
       <Button className="max-md:hidden">
-        <Link href="https://wa.me/971542793532">
+        <Link href="https://wa.me/971542793532" target="_blank">
           Book Now
         </Link>
       </Button>

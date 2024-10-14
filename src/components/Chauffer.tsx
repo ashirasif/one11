@@ -1,11 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import { Button } from './ui/button'
 
 export default function Chauffer() {
   return (
-    <div className="relative bg-black p-2 w-full">
-      <div className="relative z-10 flex max-w-screen-xl mx-auto mt-64 max-lg:flex-col-reverse h-full items-center justify-evenly lg:gap-2 gap-24 rounded-2xl p-4 shadow-amber-700 shadow-[0_0_60px_7px_rgba(0,0,0,0.5)]">
+    <div className="relative bg-black p-2 py-12 w-full">
+      <div className="relative z-10 flex max-w-screen-xl mx-auto mt-12 max-lg:flex-col-reverse h-full items-center justify-evenly lg:gap-2 gap-24 rounded-2xl p-4 shadow-amber-700 shadow-[0_0_60px_7px_rgba(0,0,0,0.5)]">
         <div className="flex h-full flex-col justify-center gap-4">
           <h1 className="font-black gold-text uppercase tracking-tight text-center lg:text-left">
             chauffeur <br />

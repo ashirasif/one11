@@ -7,7 +7,7 @@ import {
 export default function ServiceCards() {
   return (
     <section className='flex flex-col items-center justify-center py-4 bg-black'>
-      <div className='grid lg:grid-cols-3 max-md:grid-rows-3 mx-4 gap-4 bg-black max-w-screen-xl mt-52'>
+      <div className='grid lg:grid-cols-3 max-md:grid-rows-3 mx-4 gap-4 bg-black max-w-screen-xl mt-12'>
         <Card className='border border-primary pt-4'>
           <CardContent className='text-center flex flex-col gap-4'>
             <h3 className='font-black'>

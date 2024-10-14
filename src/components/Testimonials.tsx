@@ -29,14 +29,14 @@ export default function Testimonials() {
   ];
 
   return (
-    <div className="bg-black h-screen flex flex-col gap-12 justify-center items-center">
+    <div className="bg-black min-h-screen py-12 flex flex-col gap-12 justify-center items-center">
       <h1 className="bg-gradient-to-r from-stone-50 to-neutral-600 bg-clip-text text-transparent uppercase">
         What our <br />
         <span className="gold-text">Customers</span> <br />
         are saying
       </h1>
       <Carousel 
-        className="w-full max-w-lg"
+        className="w-full max-w-md"
         plugins={[
           Autoplay({
             delay: 2000,

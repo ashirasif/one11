@@ -30,7 +30,7 @@ export default function Page(
     <>
       <Navbar />
       <div className='px-12 py-24 bg-gradient-to-b from-stone-950 to-black text-primary-foreground'>
-        <div className='flex max-lg:flex-col gap-12 justify-center max-w-screen-xl items-center mx-auto'>
+        <div className='flex max-lg:flex-col gap-12 justify-center max-w-screen-lg items-center mx-auto'>
           <CarImageCarousel images={images} />
           <Separator className='my-2 lg:hidden' />
           <div className='flex flex-col self-start h-full justify-center max-sm:gap-2 gap-4 w-full basis-1/2'>
@@ -56,7 +56,7 @@ export default function Page(
                 </Link>
                 </Button>
                 <Button className='max-w-sm bg-transparent text-primary-foreground' variant="outline">
-                <Link href={"https://wa.me/971542793532"}>
+                <Link href={"https://wa.me/971542793532"} target="_blank">
                   Message For Price
                 </Link>
                 </Button>

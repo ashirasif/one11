@@ -28,7 +28,6 @@ export default function Page({
           <h1 className='scroll-m-20 font-black tracking-tight first:mt-0 bg-gradient-to-r from-stone-50 to-neutral-600 bg-clip-text text-transparent'>
             {params.category.split('-').join(' ')}
           </h1>
-          <p className='italic'>{cars.length} cars found</p>
           <Separator className='my-8 bg-primary' />
           <div className='grid lg:grid-cols-3 gap-4'>
             {

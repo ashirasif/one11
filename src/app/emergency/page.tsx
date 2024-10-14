@@ -16,7 +16,7 @@ export default function Page() {
         <div className="p-8 text-primary-foreground pt-40 pb-24 max-w-screen-xl mx-auto">
           {/* Emergency Section */}
           <section className="mb-8">
-            <h2 className="text-3xl font-bold mb-4 gold-text">Incase of an Emergency</h2>
+            <h2 className="text-3xl font-bold mb-4 gold-text">In case of an Emergency</h2>
             <p className="mb-4">
               In the event of a car accident, flat tire, or any other roadside emergency, our 24/7 helpline is available to assist you around the clock.
             </p>

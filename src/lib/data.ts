@@ -38,20 +38,21 @@ const carsArray = [
     category: 'Performance SUVs',
     images: 3
   },
-  // {
-  //   brand: 'Lamborghini',
-  //   name: 'Lamborghini Urus',
-  //   Engine: '4.0-liter twin-turbo V8',
-  //   Horsepower: '657 hp',
-  //   Acceleration: '0-60 mph in 3.1 seconds; quarter-mile in 11.3 seconds',
-  //   'Top Speed': 'Estimated at 190 mph',
-  //   Transmission: 'Eight-speed automatic',
-  //   'Drive Type': 'Permanent all-wheel drive',
-  //   Braking: '70-0 mph in 149 feet with standard carbon-ceramic brakes',
-  //   'Fuel Economy': '14 mpg city / 19 mpg highway',
-  //   Interior: 'Jet-fighter design, customizable performance settings, faux-suede and carbon-fibre accents',
-  //   category: 'Performance SUVs'
-  // },
+  {
+    brand: 'Lamborghini',
+    name: 'Lamborghini Urus',
+    Engine: '4.0-liter twin-turbo V8',
+    Horsepower: '657 hp',
+    Acceleration: '0-60 mph in 3.1 seconds; quarter-mile in 11.3 seconds',
+    'Top Speed': 'Estimated at 190 mph',
+    Transmission: 'Eight-speed automatic',
+    'Drive Type': 'Permanent all-wheel drive',
+    Braking: '70-0 mph in 149 feet with standard carbon-ceramic brakes',
+    'Fuel Economy': '14 mpg city / 19 mpg highway',
+    Interior: 'Jet-fighter design, customizable performance settings, faux-suede and carbon-fibre accents',
+    category: 'Performance SUVs',
+    images: 3
+  },
   {
     brand: 'Audi',
     name: 'Audi RSQ8',
@@ -124,14 +125,15 @@ const carsArray = [
     category: 'Muscle Cars',
     images: 4
   },
-  // {
-  //   brand: 'Dodge',
-  //   name: 'Dodge Charger',
-  //   'Engine Options': '5.7 HEMI V8',
-  //   Horsepower: '390 hp',
-  //   Transmission: '8-speed automatic',
-  //   category: 'Muscle Cars'
-  // },
+  {
+    brand: 'Dodge',
+    name: 'Dodge Charger',
+    'Engine Options': '5.7 HEMI V8',
+    Horsepower: '390 hp',
+    Transmission: '8-speed automatic',
+    category: 'Muscle Cars',
+    images: 4
+  },
 
   // Performance Cars
   {
@@ -147,27 +149,27 @@ const carsArray = [
     category: 'Performance Cars',
     images: 4
   },
-
   // Convertibles
-  // {
-  //   brand: 'BMW',
-  //   name: 'BMW 430i',
-  //   Engine: '2.0L turbocharged inline-4',
-  //   Horsepower: '255 hp',
-  //   '0-60 mph': '~5.5 seconds',
-  //   Transmission: '8-speed automatic',
-  //   category: 'Convertibles',
-  //   images: 4
-  // },
-  // {
-  //   brand: 'Chevrolet',
-  //   name: 'Chevrolet Corvette C8 Stingray',
-  //   Engine: '6.2L V8',
-  //   Horsepower: '490-495 hp',
-  //   '0-60 mph': '2.9 seconds',
-  //   Transmission: '8-speed automatic',
-  //   category: 'Convertibles'
-  // },
+  {
+    brand: 'BMW',
+    name: 'BMW 430i',
+    Engine: '2.0L turbocharged inline-4',
+    Horsepower: '255 hp',
+    '0-60 mph': '~5.5 seconds',
+    Transmission: '8-speed automatic',
+    category: 'Convertibles',
+    images: 4
+  },
+  {
+    brand: 'Chevrolet',
+    name: 'Chevrolet Corvette C8 Stingray',
+    Engine: '6.2L V8',
+    Horsepower: '490-495 hp',
+    '0-60 mph': '2.9 seconds',
+    Transmission: '8-speed automatic',
+    category: 'Convertibles',
+    images: 3
+  },
   {
     brand: 'Porsche',
     name: 'Porsche 718 Boxster',
@@ -190,26 +192,26 @@ const carsArray = [
   },
 
   // Electric Cars
-  // {
-  //   brand: 'Tesla',
-  //   name: 'Tesla Model 3',
-  //   Battery: 'Long Range, Performance models',
-  //   Range: '272-358 miles (EPA estimated)',
-  //   '0-60 mph': '3.1-5.8 seconds depending on the model',
-  //   Horsepower: 'Up to 450 hp (Performance)',
-  //   category: 'Electric Cars',
-  //   images: 3
-  // },
-  // {
-  //   brand: 'Tesla',
-  //   name: 'Tesla Model Y',
-  //   Battery: 'Long Range, Performance models',
-  //   Range: '303-330 miles (EPA estimated)',
-  //   '0-60 mph': '3.5-4.8 seconds depending on the model',
-  //   Horsepower: 'Up to 456 hp (Performance)',
-  //   category: 'Electric Cars',
-  //   images: 4
-  // },
+  {
+    brand: 'Tesla',
+    name: 'Tesla Model 3',
+    Battery: 'Long Range, Performance models',
+    Range: '272-358 miles (EPA estimated)',
+    '0-60 mph': '3.1-5.8 seconds depending on the model',
+    Horsepower: 'Up to 450 hp (Performance)',
+    category: 'Electric Cars',
+    images: 3
+  },
+  {
+    brand: 'Tesla',
+    name: 'Tesla Model Y',
+    Battery: 'Long Range, Performance models',
+    Range: '303-330 miles (EPA estimated)',
+    '0-60 mph': '3.5-4.8 seconds depending on the model',
+    Horsepower: 'Up to 456 hp (Performance)',
+    category: 'Electric Cars',
+    images: 4
+  },
   {
     brand: 'Tesla',
     name: 'Tesla Model X',
@@ -358,20 +360,6 @@ const carsArray = [
     category: 'SUVs',
     images: 3
   },
-  // {
-  //   brand: 'Chevrolet',
-  //   name: 'Chevrolet Tahoe Z71',
-  //   Engine: '5.3L V8',
-  //   Horsepower: '355 hp @ 5,600 rpm',
-  //   Torque: '383 lb-ft @ 4,100 rpm',
-  //   Transmission: '10-speed automatic',
-  //   'Drive Type': '4WD',
-  //   '0-60 mph': '7.1 seconds',
-  //   'Fuel Economy (City/Highway)': '15/20 MPG',
-  //   'Towing Capacity': '8,200 lbs',
-  //   'Seating Capacity': '7-8 seats',
-  //   category: 'SUVs'
-  // },
 
   // Sedans
   {
@@ -427,7 +415,7 @@ const carsArray = [
   },
   {
     brand: 'Mercedes Benz',
-    name: 'Mercedes Benz CLA 250',
+    name: 'Mercedes Benz CLA250',
     Engine: '2.0L Inline-4 turbo with mild hybrid drive',
     'Horse Power': '221 hp',
     Torque: '258 lb-ft',
@@ -458,7 +446,7 @@ const carsArray = [
     Transmission: '4-speed automatic',
     '0 to 100 km/h': '3.9s',
     'Top speed': '256 km/h',
-    category: 'Sedans',
+    category: 'Performance Cars',
     images: 4
   },
   {
@@ -470,7 +458,7 @@ const carsArray = [
     Transmission: '8-speed ZF GA8HP75Z automatic',
     '0 to 100 km/h': '3.5s',
     'Top speed': '250 km/h',
-    category: 'Sedans',
+    category: 'Performance Cars',
     images: 4
   },
   {
@@ -582,33 +570,35 @@ const carsArray = [
   },
 
   // Sports Cars (from Brands section)
-  // {
-  //   brand: 'Chevrolet',
-  //   name: 'Chevrolet Corvette Stingray',
-  //   Engine: '6.2L V8',
-  //   Horsepower: '495 hp @ 6,450 rpm',
-  //   Torque: '470 lb-ft @ 5,150 rpm',
-  //   Transmission: '8-speed dual-clutch automatic',
-  //   '0-60 mph': '2.9 seconds (with Z51 Performance Package)',
-  //   'Top Speed': '194 mph',
-  //   'Fuel Economy (City/Highway)': '15/27 MPG',
-  //   'Drive Type': 'Rear-wheel drive',
-  //   category: 'Sports Cars'
-  // },
-  // {
-  //   brand: 'Chevrolet',
-  //   name: 'Chevrolet Tahoe Z71',
-  //   Engine: '5.3L V8',
-  //   Horsepower: '355 hp @ 5,600 rpm',
-  //   Torque: '383 lb-ft @ 4,100 rpm',
-  //   Transmission:'10-speed automatic',
-  //   'Drive Type': '4WD',
-  //   '0-60 mph': '7.1 seconds',
-  //   'Fuel Economy (City/Highway)':' 15/20 MPG',
-  //   'Towing Capacity': '8,200 lbs',
-  //   'Seating Capacity': '7-8 seats',
-  //   category: 'SUVs'
-  // },
+  {
+    brand: 'Chevrolet',
+    name: 'Chevrolet Corvette Stingray',
+    Engine: '6.2L V8',
+    Horsepower: '495 hp @ 6,450 rpm',
+    Torque: '470 lb-ft @ 5,150 rpm',
+    Transmission: '8-speed dual-clutch automatic',
+    '0-60 mph': '2.9 seconds (with Z51 Performance Package)',
+    'Top Speed': '194 mph',
+    'Fuel Economy (City/Highway)': '15/27 MPG',
+    'Drive Type': 'Rear-wheel drive',
+    category: 'Sports Cars',
+    images: 4
+  },
+  {
+    brand: 'Chevrolet',
+    name: 'Chevrolet Tahoe Z71',
+    Engine: '5.3L V8',
+    Horsepower: '355 hp @ 5,600 rpm',
+    Torque: '383 lb-ft @ 4,100 rpm',
+    Transmission:'10-speed automatic',
+    'Drive Type': '4WD',
+    '0-60 mph': '7.1 seconds',
+    'Fuel Economy (City/Highway)':' 15/20 MPG',
+    'Towing Capacity': '8,200 lbs',
+    'Seating Capacity': '7-8 seats',
+    category: 'SUVs',
+    images: 3
+  },
   // {
   //   brand: 'Ferrari',
   //   name: 'Ferrari 488 Pista',
@@ -658,13 +648,13 @@ const carsArray = [
   },
   {
     brand: 'Lamborghini',
-    name: 'Lamborghini Hurracan',
+    name: 'Lamborghini Huracan',
     Engine: '5.2L V10',
     Power: '~610 hp (EVO) / ~631 hp (Performante)',
     '0-100 km/h': '~3.2 seconds (EVO)',
     'Top Speed': '~325 km/h',
     Transmission:' 7-speed dual-clutch, AW',
-    category: 'Sports Cars',
+    category: 'Performance Cars',
     images: 3
   },
   {
@@ -693,19 +683,20 @@ const carsArray = [
     images: 4
 
   },
-  // {
-  //   brand: 'Maserati',
-  //   name: 'Maserati Quattroporte',
-  //   Engine: '3.0L Twin-Turbocharged V6 / 3.8L V8 (GTS model)',
-  //   Horsepower: '424 hp (V6) / 580 hp (V8)',
-  //   Torque: '428 lb-ft (V6) / 524 lb-ft (V8)',
-  //   Transmission: '8-speed automatic',
-  //   '0-60 mph': '4.8 seconds (V6) / 4.2 seconds (V8)',
-  //   'Top Speed': '179 mph (V6) / 190 mph (V8)',
-  //   'Fuel Economy (City/Highway)': '16/23 MPG (V6) / 13/20 MPG (V8)',
-  //   'Drive Type': 'Rear-wheel drive',
-  //   category: 'Sedans'
-  // },
+  {
+    brand: 'Maserati',
+    name: 'Maserati Quattroporte',
+    Engine: '3.0L Twin-Turbocharged V6 / 3.8L V8 (GTS model)',
+    Horsepower: '424 hp (V6) / 580 hp (V8)',
+    Torque: '428 lb-ft (V6) / 524 lb-ft (V8)',
+    Transmission: '8-speed automatic',
+    '0-60 mph': '4.8 seconds (V6) / 4.2 seconds (V8)',
+    'Top Speed': '179 mph (V6) / 190 mph (V8)',
+    'Fuel Economy (City/Highway)': '16/23 MPG (V6) / 13/20 MPG (V8)',
+    'Drive Type': 'Rear-wheel drive',
+    category: 'Sedans',
+    images: 3
+  },
   {
     brand: 'McLaren',
     name: 'McLaren 720S',
@@ -717,7 +708,7 @@ const carsArray = [
     'Top Speed': '212 mph',
     'Fuel Economy (City/Highway)': '15/22 MPG',
     'Drive Type': 'Rear-wheel drive',
-    category: 'Supercars',
+    category: 'Performance Cars',
     images: 3
   },
   {
@@ -734,19 +725,20 @@ const carsArray = [
     category: 'Grand Tourers',
     images: 3
   },
-  // {
-  //   brand: 'McLaren',
-  //   name: 'McLaren GT',
-  //   Engine: '4.0L Twin-Turbo V8',
-  //   Horsepower: '612 hp @ 7,500 rpm',
-  //   Torque: '465 lb-ft @ 5,500 rpm',
-  //   Transmission: '7-speed dual-clutch automatic',
-  //   '0-60 mph': '3.1 seconds',
-  //   'Top Speed': '203 mph',
-  //   'Fuel Economy (City/Highway)': '15/22 MPG',
-  //   'Drive Type': 'Rear-wheel drive',
-  //   category: 'Grand Tourers'
-  // }
+  {
+    brand: 'McLaren',
+    name: 'McLaren GT',
+    Engine: '4.0L Twin-Turbo V8',
+    Horsepower: '612 hp @ 7,500 rpm',
+    Torque: '465 lb-ft @ 5,500 rpm',
+    Transmission: '7-speed dual-clutch automatic',
+    '0-60 mph': '3.1 seconds',
+    'Top Speed': '203 mph',
+    'Fuel Economy (City/Highway)': '15/22 MPG',
+    'Drive Type': 'Rear-wheel drive',
+    category: 'Grand Tourers',
+    images: 3
+  }
 ];
 
 

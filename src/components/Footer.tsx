@@ -46,7 +46,7 @@ const Icons = () => {
 
 export default function Footer() {
   return (
-    <div className="bg-gradient-to-b py-12 border-t border-primary from-black to-primary">
+    <div className="bg-gradient-to-b py-12 lg:px-4 border-t border-primary from-black to-primary">
       <div className='max-w-screen-xl mx-auto grid lg:grid-cols-3 grid-flow-row place-items-center gap-12'>
         <div className='space-y-6 max-lg:px-12'>
           <Image src="/One-11-logo.svg" width={100} height={100} alt='logo' />
