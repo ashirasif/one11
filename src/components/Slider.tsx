@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react"
+
 import Autoplay from "embla-carousel-autoplay"
 import {
   Carousel,
@@ -24,12 +24,9 @@ const mobileImages = [
 
 export default function CarServicesBanner() {
 
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
-
-  if (isMobile) {
-    // carousel
     return (
-      <div className="flex w-full overflow-hidden">
+      <>
+      <div className="flex w-full lg:hidden overflow-hidden">
         <Carousel 
           className="w-full max-w-md"
           plugins={[
@@ -51,10 +48,7 @@ export default function CarServicesBanner() {
         </Carousel>
 
       </div>
-    )
-  } else {
-    return (
-      <div className="flex h-screen w-full overflow-hidden">
+      <div className="flex h-screen w-full max-lg:hidden overflow-hidden">
         {services.map((service) => (
           <div
             key={service.name}
@@ -69,7 +63,7 @@ export default function CarServicesBanner() {
           </div>
         ))}
       </div>
+    </>
     )
-  }
-
 }
+
