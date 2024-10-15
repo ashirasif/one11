@@ -1,3 +1,4 @@
+"use client"
 import { useState } from "react"
 import Autoplay from "embla-carousel-autoplay"
 import {
