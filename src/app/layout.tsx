@@ -4,8 +4,6 @@ import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 
 import { TRPCReactProvider } from "~/trpc/react";
-import Cursor from "~/components/Cursor";
-import Footer from "~/components/Footer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -29,7 +27,6 @@ export default function RootLayout({
             </svg>
           </Link>
         </div>
-        <Cursor />
       </body>
     </html>
   );

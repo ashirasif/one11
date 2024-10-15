@@ -4,7 +4,6 @@ import * as React from "react"
 import { Card, CardContent } from "~/components/ui/card"
 import {
   Carousel,
-  CarouselApi,
   CarouselContent,
   CarouselItem,
   CarouselNext,
@@ -13,25 +12,8 @@ import {
 
 export function CarImageCarousel(props: {images: string[]}) {
 
-  const [api, setApi] = React.useState<CarouselApi>()
-  const [current, setCurrent] = React.useState(0)
-  const [count, setCount] = React.useState(0)
-
-  React.useEffect(() => {
-    if (!api) {
-      return
-    }
-
-    setCount(api.scrollSnapList().length)
-    setCurrent(api.selectedScrollSnap() + 1)
-
-    api.on("select", () => {
-      setCurrent(api.selectedScrollSnap() + 1)
-    })
-  }, [api])
-
   return (
-    <Carousel setApi={setApi} opts={{
+    <Carousel opts={{
       loop: true
     }} className="flex items-center gap-2 basis-1/2">
       <CarouselPrevious className="bg-primary text-primary-foreground"/>

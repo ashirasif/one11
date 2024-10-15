@@ -25,7 +25,7 @@ export default function ServiceCards() {
               Prestigious Fleet
             </h3>
             <p>
-              Drive luxury brands like Mercedes-Benz, BMW, Audi, and Rolls-Royce.
+              Experience the thrill of driving luxury brands like Lamborghini, Maserati, Ferrari, Rolls-Royce, and more. Indulge in ultimate style and performance with our exclusive fleet!
             </p>
           </CardContent>
         </Card>
@@ -36,7 +36,7 @@ export default function ServiceCards() {
               Convenient Delivery
             </h3>
             <p>
-              We deliver and collect your vehicle from your home, hotel, or airport.
+              We offer convenient pick-up and drop-off services for the car of your choice, wherever you are.
             </p>
           </CardContent>
         </Card>
