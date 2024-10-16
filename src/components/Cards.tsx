@@ -12,7 +12,7 @@ function CarCard(props: {
   return (
     <div className={cn('car-card relative hover:cursor-pointer flex w-full items-end overflow-hidden rounded-lg font-semibold text-white', props.className)} onClick={() => router.push(`/vehicle/${props.name.split(' ').join('-')}`)}>
       <img
-        src={`/images/${props.name} 1.jpeg`}
+        src={`/cards/${props.name}.jpg`}
         alt=""
         className="h-full w-full object-cover"
       />
