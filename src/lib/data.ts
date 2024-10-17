@@ -556,18 +556,6 @@ const carsArray = [
     category: 'Sedans',
     images: 4
   },
-  {
-    brand: 'Mercedes Benz',
-    name: 'Mercedes Benz CLA250',
-    Engine: '2.0L Inline-4 turbo with mild hybrid drive',
-    'Horse Power': '221 hp',    
-    Torque: '258 lb-ft',    
-    Transmission: '7-speed dual-clutch automatic',    
-    '0 to 100 km/h': '6.3s',    
-    'Top speed': '210 km/h',
-    category: 'Sedans',
-    images: 3
-  },
 
   // Sports Cars (from Brands section)
   {

@@ -141,6 +141,6 @@
   }
 
   .car-card {
-    @apply shadow-2xl shadow-transparent hover:shadow-amber-800 hover:brightness-150 transition-all duration-300 ease-in-out
+    @apply shadow-2xl shadow-transparent hover:shadow-amber-800 hover:brightness-125 transition-all duration-300 ease-in-out
   }
 }
