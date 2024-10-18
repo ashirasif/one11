@@ -1,4 +1,5 @@
 "use client"
+import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import { useEffect, useState } from 'react'
 import Scene from '~/components/3d/scene'
@@ -17,13 +18,21 @@ import { getAllCars } from '~/lib/data'
 
 function Page() {
 
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      setMousePosition({ x: e.clientX, y: e.clientY })
+    }
+    window.addEventListener('mousemove', handleMouseMove)
+    return () => window.removeEventListener('mousemove', handleMouseMove)
+  }, [])
+      
 
   return (
     <div className='relative'>
       <div className='absolute bg-black/50 top-0 left-0 z-10'>
         <div className='flex flex-col justify-center h-full overflow-x-hidden w-screen'>
           <Navbar/>
-          <NavigationLinks/>
           <HeroSection/>
           <Markup/>
           <Cards/>
@@ -34,13 +43,12 @@ function Page() {
           <Footer />
         </div>
       </div>
-      {
-        // <div className='absolute top-0 left-0 w-screen h-screen'>
-        //   <Canvas>
-        //     <Scene mousePosition={mousePosition} />
-        //   </Canvas>
-        // </div>
-      }
+        <div className='absolute bg-black top-0 z-20 left-0 w-screen h-screen'>
+          <Canvas>
+            <Scene mousePosition={mousePosition} />
+          <OrbitControls />
+          </Canvas>
+        </div>
     </div>
   )
 }

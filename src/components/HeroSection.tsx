@@ -3,7 +3,7 @@ import { Button } from "./ui/button"
 
 function HeroSection() {
   return (
-    <div className="bg-stone-950 py-24 px-4">
+    <div className="bg-transparent min-h-screen py-24 px-4">
       <div className="lg:w-3/6 flex gap-2 flex-col items-center max-w-screen-xl mx-auto text-white">
         <h1 className="font-inter text-center text-4xl 2xl:text-6xl font-black leading-tight tracking-tighter">
           Book your dream car  at {" "} 
