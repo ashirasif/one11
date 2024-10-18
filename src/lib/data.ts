@@ -250,18 +250,18 @@ const carsArray = [
     category: 'SUVs',
     images: 4
   },
-  {
-    brand: 'Chevrolet',
-    name: 'Chevrolet Captiva',
-    'Engine Options': ' 2.4L or 2.0L turbo, ~145-250 hp',
-    Horsepower: '181 hp',
-    '0-60 mph': '11.30 seconds',
-    Transmission: '6-speed automatic or CVT',
-    Drivetrain: 'FWD or AWD',
-    Seating: '5 to 7 passengers',
-    category: 'SUVs',
-    images: 4
-  },
+  // {
+  //   brand: 'Chevrolet',
+  //   name: 'Chevrolet Captiva',
+  //   'Engine Options': ' 2.4L or 2.0L turbo, ~145-250 hp',
+  //   Horsepower: '181 hp',
+  //   '0-60 mph': '11.30 seconds',
+  //   Transmission: '6-speed automatic or CVT',
+  //   Drivetrain: 'FWD or AWD',
+  //   Seating: '5 to 7 passengers',
+  //   category: 'SUVs',
+  //   images: 4
+  // },
   {
     brand: 'Cadillac',
     name: 'Cadillac Escalade Sport Platinum',
