@@ -30,7 +30,7 @@ function Page() {
 
   return (
     <div className='relative'>
-      <div className='absolute bg-black/50 top-0 left-0 z-10'>
+      <div className='absolute lg:bg-black/20 bg-black/50 top-0 left-0 z-10'>
         <div className='flex flex-col justify-center h-full overflow-x-hidden w-screen'>
           <Navbar/>
           <HeroSection/>
@@ -43,10 +43,9 @@ function Page() {
           <Footer />
         </div>
       </div>
-        <div className='absolute bg-black top-0 z-20 left-0 w-screen h-screen'>
-          <Canvas>
+        <div className='absolute bg-black top-0 left-0 w-screen h-screen'>
+          <Canvas shadows linear gl={{shadowMapEnabled: true}}>
             <Scene mousePosition={mousePosition} />
-          <OrbitControls />
           </Canvas>
         </div>
     </div>
