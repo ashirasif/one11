@@ -188,7 +188,7 @@ const carsArray = [
     '0-60 mph': '~7.3 seconds',
     Transmission: '9-speed automatic',
     category: 'Convertibles',
-    images: 4
+    images: 3
   },
 
   // Electric Cars
@@ -323,7 +323,7 @@ const carsArray = [
     'Drive Type': 'All-wheel drive',
     'Total Seating': '5',
     category: 'SUVs',
-    images: 3
+    images: 2
   },
   {
     brand: 'Land Rover',
