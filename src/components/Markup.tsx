@@ -14,7 +14,7 @@ export default function Markup() {
             "gold-text text-4xl 2xl:text-6xl font-black leading-tight tracking-tighter",
           )}>Luxury Needs </span>
         </h3>
-        <img src="/Group 8.png" className={cn('transition-opacity duration-1000 brightness-200')} alt="" />
+        <img src="/Group 10.png" className={cn('transition-opacity duration-1000 brightness-200')} alt="" />
       </div>
     </div>
   )
